@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<style>
+    img {
+     max-width:100%;
+     width:600px;
+     height:400px;
+     }
+</style>
+<body>
+
+
+  <h1> Details....</h1>
+  <img src="{% static 'assets/img/cake.jpg' %}" alt="Alagu" >
+
+  <p><b>User Name: {{names}}</b> <br><br>
+     <b>Password: </b>
+      <br><br>
+  </p>
+{{alert}}
+{{name}}
+</body>
+</html>
